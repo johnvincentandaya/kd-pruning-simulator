@@ -1,0 +1,80 @@
+{
+    "effectiveness": [
+        {
+            "metric": "Accuracy",
+            "before": "91.2%",
+            "after": "89.0%"
+        },
+        {
+            "metric": "Precision (Macro Avg)",
+            "before": "91.1%",
+            "after": "88.8%"
+        },
+        {
+            "metric": "Recall (Macro Avg)",
+            "before": "91.0%",
+            "after": "88.5%"
+        },
+        {
+            "metric": "F1-Score (Macro Avg)",
+            "before": "91.0%",
+            "after": "88.6%"
+        }
+    ],
+    "efficiency": [
+        {
+            "metric": "Latency (ms)",
+            "before": "14.5 ms",
+            "after": "6.1 ms"
+        },
+        {
+            "metric": "RAM Usage (MB)",
+            "before": "228.7 MB",
+            "after": "124.2 MB"
+        },
+        {
+            "metric": "Model Size (MB)",
+            "before": "2.4 MB",
+            "after": "1.1 MB"
+        }
+    ],
+    "compression": [
+        {
+            "metric": "Parameters Count",
+            "before": "72,000",
+            "after": "28,000"
+        },
+        {
+            "metric": "Layers Count",
+            "before": "3",
+            "after": "3"
+        },
+        {
+            "metric": "Compression Ratio",
+            "before": "Not Applicable",
+            "after": "2.6\u00d7"
+        },
+        {
+            "metric": "Accuracy Drop (%)",
+            "before": "Not Applicable",
+            "after": "2.2%"
+        },
+        {
+            "metric": "Size Reduction (%)",
+            "before": "Not Applicable",
+            "after": "54.2%"
+        }
+    ],
+    "complexity": [
+        {
+            "metric": "Time Complexity",
+            "before": "Not Applicable",
+            "after": "O(n\u00b2)"
+        },
+        {
+            "metric": "Space Complexity",
+            "before": "Not Applicable",
+            "after": "O(n)"
+        }
+    ]
+}
